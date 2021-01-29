@@ -10,10 +10,10 @@ import {
   SidebarMenu,
 } from "./HamburgerElements";
 
-const Hamburger = () => {
+const Hamburger = ({ isOpen, toggle }) => {
   return (
-    <HamburgerContainer>
-      <Icon>
+    <HamburgerContainer isOpen={isOpen} onClick={toggle}>
+      <Icon onClick={toggle}>
         <CloseIcon />
       </Icon>
       <SidebarWrapper>
