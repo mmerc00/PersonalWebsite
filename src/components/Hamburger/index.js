@@ -21,11 +21,11 @@ const Hamburger = ({ isOpen, toggle }) => {
           <SidebarLink to="about" onClick={toggle}>
             about
           </SidebarLink>
-          <SidebarLink to="projects" onClick={toggle}>
-            projects
-          </SidebarLink>
           <SidebarLink to="skills" onClick={toggle}>
             skills
+          </SidebarLink>
+          <SidebarLink to="projects" onClick={toggle}>
+            projects
           </SidebarLink>
           <SidebarLink to="connect" onClick={toggle}>
             connect

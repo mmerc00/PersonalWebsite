@@ -31,11 +31,10 @@ export const NavbarContainer = styled.div`
 //react router link
 export const NavLogo = styled(LinkR)`
   font-family: georgia, serif;
-
   color: #fff;
   justify-self: flex-start;
   cursor: pointer;
-  font-size: 1.5rem;
+  font-size: 1.9rem;
   display: flex;
   align-items: center;
   margin-left: 24px;
