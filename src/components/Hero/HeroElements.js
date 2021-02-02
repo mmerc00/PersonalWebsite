@@ -10,6 +10,13 @@ export const HeroContainer = styled.div`
   align-items: center;
   z-index: 1;
 `;
+export const VideoBackground = styled.video`
+  -o-object-fit: cover;
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+  background: #ffbf80;
+`;
 
 export const HeroBackground = styled.div`
   overflow: hidden;
@@ -19,11 +26,21 @@ export const HeroBackground = styled.div`
   width: 100%;
   bottom: 0;
 `;
-
-export const VideoBackground = styled.video`
-  -o-object-fit: cover;
-  height: 100%;
-  object-fit: cover;
-  width: 100%;
-  background: #ffbf80;
+export const HeroSectionContent = styled.div`
+  display: flex;
+  padding: 8 24px;
+  background-color: transparent;
+  justify-content: center;
+  position: absolute;
+  height: 800px;
+  z-index: 3;
+  align-items: center;
+`;
+export const HeroText = styled.div`
+  text-align: center;
+  color: #fff;
+  background-color: transparent;
+  justify-content: center;
+  position: absolute;
+  font-size: 32px;
 `;

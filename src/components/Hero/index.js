@@ -1,5 +1,11 @@
 import React from "react";
-import { HeroContainer, HeroBackground, VideoBackground } from "./HeroElements";
+import {
+  HeroContainer,
+  HeroBackground,
+  VideoBackground,
+  HeroSectionContent,
+  HeroText,
+} from "./HeroElements";
 import Beach from "../../videos/Beach.mp4";
 
 const Hero = () => {
@@ -9,6 +15,9 @@ const Hero = () => {
       <HeroBackground>
         <VideoBackground autoPlay loop muted src={Beach} type="video/mp4" />
       </HeroBackground>
+      <HeroSectionContent>
+        <HeroText>hm</HeroText>n
+      </HeroSectionContent>
     </HeroContainer>
   );
 };
