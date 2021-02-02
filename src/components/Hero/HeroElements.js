@@ -42,5 +42,6 @@ export const HeroText = styled.div`
   background-color: transparent;
   justify-content: center;
   position: absolute;
-  font-size: 32px;
+  font-family: georgia, serif;
+  font-size: 80px;
 `;

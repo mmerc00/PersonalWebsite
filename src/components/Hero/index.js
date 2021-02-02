@@ -17,7 +17,7 @@ const Hero = () => {
         <VideoBackground autoPlay loop muted src={Beach} type="video/mp4" />
       </HeroBackground>
       <HeroSectionContent>
-        <HeroText>hm</HeroText>
+        <HeroText>temporary text here</HeroText>
       </HeroSectionContent>
     </HeroContainer>
   );

@@ -30,6 +30,8 @@ export const NavbarContainer = styled.div`
 //prop drilling-oops need it for smooth scrolling
 //react router link
 export const NavLogo = styled(LinkR)`
+  font-family: georgia, serif;
+
   color: #fff;
   justify-self: flex-start;
   cursor: pointer;
@@ -71,6 +73,8 @@ export const NavItem = styled.li`
 `;
 //react scroll link
 export const NavLinks = styled(LinkScroll)`
+  font-family: georgia, serif;
+
   color: #fff;
   display: flex;
   align-items: center;
@@ -87,6 +91,8 @@ export const NavLinks = styled(LinkScroll)`
 //sign in stuff (in the works)
 
 export const NavBtn = styled.nav`
+  font-family: georgia, serif;
+
   display: flex;
   align-items: center;
 
