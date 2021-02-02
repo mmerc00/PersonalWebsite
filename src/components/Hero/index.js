@@ -1,4 +1,5 @@
 import React from "react";
+
 import {
   HeroContainer,
   HeroBackground,
@@ -23,3 +24,4 @@ const Hero = () => {
 };
 
 export default Hero;
+//add down chevron and link to next page
