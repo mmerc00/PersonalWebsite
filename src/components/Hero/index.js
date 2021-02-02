@@ -7,7 +7,7 @@ const Hero = () => {
   return (
     <HeroContainer>
       <HeroBackground>
-        <VideoBackground autoPlay loop src={Beach} type="video/mp4" />
+        <VideoBackground autoPlay loop muted src={Beach} type="video/mp4" />
       </HeroBackground>
     </HeroContainer>
   );
