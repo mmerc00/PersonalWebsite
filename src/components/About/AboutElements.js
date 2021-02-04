@@ -29,17 +29,17 @@ export const Text = styled.div`
   padding-top: 0;
 `;
 export const TopLine = styled.p`
+  margin-bottom: 90px;
   letter-spacing: 1.4px;
-  color: #9900ff;
-  line-height: 20px;
+  line-height: 10px;
   font-size: 20px;
   font-weight: 300px;
+  color: #ca674b;
 `;
 
 export const AboutContainer = styled.div`
-  color: #fff;
-  background: ${({ lightBg }) => (lightBg ? "#cce6ff" : "#010606")};
-
+  background: #001a33;
+  /*   background: ${({ lightBg }) => (lightBg ? "#cce6ff" : "#010606")}; */
   @media screen and (max-width: 768px) {
     padding: 100px 0;
   }
@@ -57,7 +57,8 @@ export const ColumnTwo = styled.div`
 `;
 
 export const Head = styled.h1`
-  margin-bottom: 20px;
+  color: #ecc594;
+  margin-bottom: 60px;
   line-height: 20px;
   font-size: 100px;
   font-weight: 500px;
