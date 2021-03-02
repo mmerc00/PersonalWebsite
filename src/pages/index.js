@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar";
 import Hamburger from "../components/Hamburger";
 import Hero from "../components/Hero";
 import About from "../components/About";
+import { homeObjectOne } from "../components/About/Data";
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -15,7 +16,7 @@ const Home = () => {
       <Hamburger isOpen={isOpen} toggle={toggle} />
       <Navbar toggle={toggle} />
       <Hero />
-      <About />
+      <About {...homeObjectOne} />
     </>
   );
 };

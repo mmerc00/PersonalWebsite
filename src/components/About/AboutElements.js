@@ -78,7 +78,7 @@ export const ImgWrap = styled.div`
   width: 60%;
   height: 90%;
 `;
-export const Picture = styled.img`
+export const Img = styled.img`
   width: 60%;
   margin: 0 0 10px 0;
   padding-right: 0;

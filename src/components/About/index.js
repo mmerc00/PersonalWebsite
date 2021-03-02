@@ -9,31 +9,43 @@ import {
   TopLine,
   Head,
   Sub,
-  Picture,
+  Img,
   ImgWrap,
   BtnWrap,
 } from "./AboutElements";
-import { Button } from "react-scroll";
+import { Button } from "../ButtonElements";
 
-const About = () => {
+const About = ({
+  lightBg,
+  id,
+  imgStart,
+  lightText,
+  darkText,
+  headLine,
+  topLine,
+  buttonLabel,
+  alt,
+  img,
+  description,
+}) => {
   return (
     <>
-      <AboutContainer>
+      <AboutContainer lightBg={lightBg} id={id}>
         <AboutWrap>
-          <AboutRow>
+          <AboutRow imgStart={imgStart}>
             <ColumnOne>
               <Text>
-                <TopLine>Tippity Top Line</TopLine>
-                <Head>Head</Head>
-                <Sub>Sub</Sub>
+                <TopLine>{topLine}</TopLine>
+                <Head lightText={lightText}>{headLine}</Head>
+                <Sub darkText={darkText}>{description}</Sub>
                 <BtnWrap>
-                  <Button to="home" />
+                  <Button to="home"> {buttonLabel}</Button>
                 </BtnWrap>
               </Text>
             </ColumnOne>
             <ColumnTwo>
               <ImgWrap>
-                <Picture />
+                <Img src={img} alt={alt} />
               </ImgWrap>
             </ColumnTwo>
           </AboutRow>

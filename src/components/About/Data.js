@@ -1,0 +1,16 @@
+export const homeObjectOne = {
+  id: "about",
+  lightBg: false,
+  lightText: true,
+  lightTextDesc: true,
+  topLine: "topline",
+  headLine: "headline",
+  description: "description",
+  buttonLabel: "btn",
+  imgStart: false,
+  img: require("../../images/placeholderOne.svg"),
+  alt: "placeholder",
+  dark: true,
+  primary: true,
+  darkText: false,
+};
