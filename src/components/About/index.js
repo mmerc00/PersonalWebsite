@@ -39,7 +39,16 @@ const About = ({
                 <Head lightText={lightText}>{headLine}</Head>
                 <Sub darkText={darkText}>{description}</Sub>
                 <BtnWrap>
-                  <Button to="home"> {buttonLabel}</Button>
+                  <Button
+                    to="home"
+                    smooth={true}
+                    duration={500}
+                    exact="true"
+                    spy={true}
+                    offset={-60}
+                  >
+                    {buttonLabel}
+                  </Button>
                 </BtnWrap>
               </Text>
             </ColumnOne>
