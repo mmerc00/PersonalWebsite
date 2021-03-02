@@ -2,25 +2,27 @@ import styled from "styled-components";
 
 export const AboutWrap = styled.div`
   z-index: 1;
-  display: flex;
+  display: grid;
   height: 860px;
   width: 100%;
-  max-width: 1100px;
   margin-right: auto;
   padding: 0 24px;
   justify-content: center;
+  max-width: 1100px;
   margin-left: auto;
 `;
 
 export const AboutRow = styled.div`
+align-items: center;
   grid-auto-columns: minmax(auto, 1fr);
   display: grid;
 
-  align-items: center;
-  grid-template-areas: ${({ img }) => (img ? `'col2 col1'` : `'col1 col2'`)}
+  
+  grid-template-areas: ${({ imgStart }) =>
+    imgStart ? `'col2 col1'` : `'col1 col2'`}
   @media screen and (max-width: 768px) {
-    grid-template-areas: ${({ img }) =>
-      img ? `'col1' 'col2'` : `'col1 col1' 'col2 col2'`}
+    grid-template-areas: ${({ imgStart }) =>
+      imgStart ? `'col1' 'col2'` : `'col1 col1' 'col2 col2'`}
 `;
 
 export const Text = styled.div`
