@@ -9,7 +9,6 @@ export const AboutWrap = styled.div`
   padding: 0 24px;
   justify-content: center;
   max-width: 1100px;
-  margin-left: auto;
 `;
 
 export const AboutRow = styled.div`
@@ -31,7 +30,7 @@ export const Text = styled.div`
   padding-top: 0;
 `;
 export const TopLine = styled.p`
-  margin-bottom: 90px;
+  margin-bottom: 160px;
   letter-spacing: 1.4px;
   line-height: 10px;
   font-size: 20px;
