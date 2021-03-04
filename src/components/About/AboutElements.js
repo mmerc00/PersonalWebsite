@@ -59,7 +59,7 @@ export const ColumnTwo = styled.div`
 
 export const Head = styled.h1`
   color: #ecc594;
-  margin-bottom: 60px;
+  margin-bottom: 160px;
   line-height: 20px;
   font-size: 100px;
   font-weight: 500px;
