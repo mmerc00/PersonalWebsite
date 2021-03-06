@@ -1,7 +1,7 @@
 import React from "react";
 import {
   AboutContainer,
-  AboutWrap,
+  AboutWrapper,
   AboutRow,
   ColumnOne,
   ColumnTwo,
@@ -10,8 +10,8 @@ import {
   Head,
   Sub,
   Img,
-  ImgWrap,
-  BtnWrap,
+  ImgWrapper,
+  BtnWrapper,
 } from "./AboutElements";
 import { Button } from "../ButtonElements";
 
@@ -31,14 +31,14 @@ const About = ({
   return (
     <>
       <AboutContainer lightBg={lightBg} id={id}>
-        <AboutWrap>
+        <AboutWrapper>
           <AboutRow imgStart={imgStart}>
             <ColumnOne>
               <Text>
                 <TopLine>{topLine}</TopLine>
                 <Head lightText={lightText}>{headLine}</Head>
                 <Sub darkText={darkText}>{description}</Sub>
-                <BtnWrap>
+                <BtnWrapper>
                   <Button
                     to="home"
                     smooth={true}
@@ -49,16 +49,16 @@ const About = ({
                   >
                     {buttonLabel}
                   </Button>
-                </BtnWrap>
+                </BtnWrapper>
               </Text>
             </ColumnOne>
             <ColumnTwo>
-              <ImgWrap>
+              <ImgWrapper>
                 <Img src={img} alt={alt} />
-              </ImgWrap>
+              </ImgWrapper>
             </ColumnTwo>
           </AboutRow>
-        </AboutWrap>
+        </AboutWrapper>
       </AboutContainer>
     </>
   );

@@ -1,6 +1,14 @@
 import styled from "styled-components";
 
-export const AboutWrap = styled.div`
+export const AboutContainer = styled.div`
+  background: #001a33;
+  /*   background: ${({ lightBg }) => (lightBg ? "#cce6ff" : "#010606")}; */
+  @media screen and (max-width: 768px) {
+    padding: 100px 0;
+  }
+`;
+
+export const AboutWrapper = styled.div`
   z-index: 1;
   display: grid;
   height: 860px;
@@ -12,7 +20,7 @@ export const AboutWrap = styled.div`
 `;
 
 export const AboutRow = styled.div`
-align-items: center;
+  align-items: center;
   grid-auto-columns: minmax(auto, 1fr);
   display: grid;
 
@@ -36,14 +44,6 @@ export const TopLine = styled.p`
   font-size: 20px;
   font-weight: 300px;
   color: #ca674b;
-`;
-
-export const AboutContainer = styled.div`
-  background: #001a33;
-  /*   background: ${({ lightBg }) => (lightBg ? "#cce6ff" : "#010606")}; */
-  @media screen and (max-width: 768px) {
-    padding: 100px 0;
-  }
 `;
 
 export const ColumnOne = styled.div`
@@ -75,7 +75,7 @@ margin-bottom: 30px;
 line-height: 30px;
 background: ${({ darkText }) => (darkText ? "#0f001a" : "#f5e6ff")};
 `;
-export const ImgWrap = styled.div`
+export const ImgWrapper = styled.div`
   width: 60%;
   height: 90%;
 `;
@@ -84,7 +84,7 @@ export const Img = styled.img`
   margin: 0 0 10px 0;
   padding-right: 0;
 `;
-export const BtnWrap = styled.div`
+export const BtnWrapper = styled.div`
   display: flex;
   justify-content: flex-start;
 `;
