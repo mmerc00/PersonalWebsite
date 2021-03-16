@@ -1,5 +1,4 @@
 import styled from "styled-components";
-
 export const AboutContainer = styled.div`
   background: #001a33;
   /*   background: ${({ lightBg }) => (lightBg ? "#cce6ff" : "#010606")}; */
@@ -7,45 +6,28 @@ export const AboutContainer = styled.div`
     padding: 100px 0;
   }
 `;
-
 export const AboutWrapper = styled.div`
-  z-index: 1;
   display: grid;
+  z-index: 1;
   height: 860px;
   width: 100%;
+  max-width: 1100px;
   margin-right: auto;
+  margin-left: auto;
   padding: 0 24px;
   justify-content: center;
-  max-width: 1100px;
 `;
-
 export const AboutRow = styled.div`
-  align-items: center;
-  grid-auto-columns: minmax(auto, 1fr);
   display: grid;
-
-  
+  grid-auto-columns: minmax(auto, 1fr);
+  align-items: center;
   grid-template-areas: ${({ imgStart }) =>
-    imgStart ? `'col2 col1'` : `'col1 col2'`}
+    imgStart ? `'col2 col1'` : `'col1 col2'`};
   @media screen and (max-width: 768px) {
     grid-template-areas: ${({ imgStart }) =>
-      imgStart ? `'col1' 'col2'` : `'col1 col1' 'col2 col2'`}
+      imgStart ? `'col1' 'col2'` : `'col1 col1' 'col2 col2'`};
+  }
 `;
-
-export const Text = styled.div`
-  padding-bottom: 0;
-  max-width: 500px;
-  padding-top: 0;
-`;
-export const TopLine = styled.p`
-  margin-bottom: 160px;
-  letter-spacing: 1.4px;
-  line-height: 10px;
-  font-size: 20px;
-  font-weight: 300px;
-  color: #ca674b;
-`;
-
 export const ColumnOne = styled.div`
   margin-bottom: 15px;
   padding: 0 15px;
@@ -56,35 +38,47 @@ export const ColumnTwo = styled.div`
   padding: 0 15px;
   grid-area: col2;
 `;
-
-export const Head = styled.h1`
-  color: #ecc594;
+export const TextWrapper = styled.div`
+  max-width: 540px;
+  padding-top: 0;
+  padding-bottom: 60px;
+`;
+export const TopLine = styled.p`
+  color: #ca674b;
+  font-size: 50px;
+  line-height: 16px;
+  font-weight: 700px;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
   margin-bottom: 160px;
-  line-height: 20px;
-  font-size: 100px;
-  font-weight: 500px;
-  @media screen and (max-width: 768px) {
-    font-size: 20px;
+`;
+export const Heading = styled.h1`
+  margin-bottom: 24px;
+  font-size: 48px;
+  line-height: 1.1;
+  font-weight: 600;
+  color: #ecc594;
+  @media screen and (max-width: 480px) {
+    font-size: 32px;
   }
 `;
-
-export const Sub = styled.p`
-max-width: 200px
-font-size: 30px
-margin-bottom: 30px;
-line-height: 30px;
-background: ${({ darkText }) => (darkText ? "#0f001a" : "#f5e6ff")};
+export const Subtitle = styled.p`
+  max-width: 440px;
+  margin-bottom: 30px;
+  font-size: 18px;
+  line-height: 24px;
+  color: ${({ darkText }) => (darkText ? "#0f001a" : "#f5e6ff")};
 `;
-export const ImgWrapper = styled.div`
-  width: 60%;
-  height: 90%;
-`;
-export const Img = styled.img`
-  width: 60%;
-  margin: 0 0 10px 0;
-  padding-right: 0;
-`;
-export const BtnWrapper = styled.div`
+export const BtnWrap = styled.div`
   display: flex;
   justify-content: flex-start;
+`;
+export const ImgWrap = styled.div`
+  max-width: 555px;
+  height: 100%;
+`;
+export const Img = styled.img`
+  width: 100%;
+  margin: 0 0 10px 0;
+  padding-right: 0;
 `;

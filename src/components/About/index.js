@@ -1,20 +1,20 @@
 import React from "react";
+import IMG from "../../images/2.jpg";
 import {
   AboutContainer,
   AboutWrapper,
   AboutRow,
   ColumnOne,
   ColumnTwo,
-  Text,
+  TextWrapper,
   TopLine,
-  Head,
-  Sub,
+  Heading,
+  Subtitle,
   Img,
-  ImgWrapper,
-  BtnWrapper,
+  ImgWrap,
+  BtnWrap,
 } from "./AboutElements";
 import { Button } from "../ButtonElements";
-
 const About = ({
   lightBg,
   id,
@@ -25,7 +25,6 @@ const About = ({
   topLine,
   buttonLabel,
   alt,
-  img,
   description,
 }) => {
   return (
@@ -34,11 +33,11 @@ const About = ({
         <AboutWrapper>
           <AboutRow imgStart={imgStart}>
             <ColumnOne>
-              <Text>
+              <TextWrapper>
                 <TopLine>{topLine}</TopLine>
-                <Head lightText={lightText}>{headLine}</Head>
-                <Sub darkText={darkText}>{description}</Sub>
-                <BtnWrapper>
+                <Heading lightText={lightText}>{headLine}</Heading>
+                <Subtitle darkText={darkText}>{description}</Subtitle>
+                <BtnWrap>
                   <Button
                     to="home"
                     smooth={true}
@@ -49,13 +48,13 @@ const About = ({
                   >
                     {buttonLabel}
                   </Button>
-                </BtnWrapper>
-              </Text>
+                </BtnWrap>
+              </TextWrapper>
             </ColumnOne>
             <ColumnTwo>
-              <ImgWrapper>
-                <Img src={img} alt={alt} />
-              </ImgWrapper>
+              <ImgWrap>
+                <Img src={IMG} alt={alt} />
+              </ImgWrap>
             </ColumnTwo>
           </AboutRow>
         </AboutWrapper>
@@ -63,5 +62,4 @@ const About = ({
     </>
   );
 };
-
 export default About;
