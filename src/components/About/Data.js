@@ -3,10 +3,9 @@ export const homeObjectOne = {
   lightBg: false,
   lightText: true,
   lightTextDesc: true,
-  topLine: "About",
-  headLine: "Hi, this is me!",
-  description:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+  topLine: "Welcome!",
+  headLine: "Hi, my name is Melissa!",
+  description: "I am full stack web developer with an eye for design. ",
   buttonLabel: "btn",
   imgStart: false,
   img: require("../../images/2.jpg"),
