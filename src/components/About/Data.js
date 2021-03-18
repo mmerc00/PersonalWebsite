@@ -14,3 +14,36 @@ export const homeObjectOne = {
   primary: true,
   darkText: false,
 };
+export const homeObjectTwo = {
+  id: "skills",
+  lightBg: true,
+  lightText: true,
+  lightTextDesc: true,
+  topLine: "Languages I know",
+  headLine: "Languages I am learning",
+  description: "I am full stack web developer with an eye for design. ",
+  buttonLabel: "btn",
+  imgStart: true,
+  img: require("../../images/2.jpg"),
+
+  alt: "About Me",
+  dark: false,
+  primary: true,
+  darkText: false,
+};
+export const homeObjectThree = {
+  id: "about",
+  lightBg: false,
+  lightText: true,
+  lightTextDesc: true,
+  topLine: "Welcome!",
+  headLine: "Hi, my name is Melissa!",
+  description: "I am full stack web developer with an eye for design. ",
+  buttonLabel: "btn",
+  imgStart: false,
+  img: require("../../images/2.jpg"),
+  alt: "About Me",
+  dark: false,
+  primary: true,
+  darkText: false,
+};
