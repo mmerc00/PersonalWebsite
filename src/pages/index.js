@@ -7,6 +7,7 @@ import {
   homeObjectOne,
   homeObjectTwo,
   homeObjectThree,
+  homeObjectFour,
 } from "../components/About/Data";
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -23,6 +24,7 @@ const Home = () => {
       <About {...homeObjectOne} />
       <About {...homeObjectTwo} />
       <About {...homeObjectThree} />
+      <About {...homeObjectFour} />
     </>
   );
 };
