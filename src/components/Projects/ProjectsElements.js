@@ -17,9 +17,9 @@ export const ProjectsWrap = styled.div`
   max-width: 1000px;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   align-items: center;
-  grid-gap: 16px;
+  grid-gap: 50px;
   padding: 0 50px;
   @media screen and (max-width: 1000px) {
     grid-template-columns: 1fr 1fr;
@@ -36,7 +36,7 @@ width: 340px;
 background: #fff;
 display: flex;
 align-items: center;
-border-radius:10px;
+border-radius: 20px;
 max-height: 340px;
 flex-direction: column;
 justify-content: flex start;
@@ -57,16 +57,17 @@ transition: all 0.2s ease-in-out;
 `;
 
 export const ProjectsIcon = styled.img`
-  width: 140px;
-  height: 140px;
-  margin-bottom: 10px;
+  width: 160px;
+  height: 160px;
+  margin-bottom: 20px;
+  margin-top: 20px;
 `;
 
 export const ProjectsH1 = styled.h1`
-  margin-bottom: 50px;
+  margin-bottom: 60px;
   font-size: 3rem;
   color: #fff;
-
+  margin-left: 40px;
   @media screen and (max-width: 480px) {
     font-size: 2 rem;
   }

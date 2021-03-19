@@ -15,7 +15,7 @@ import {
 const Projects = () => {
   return (
     <ProjectsContainer>
-      <ProjectsH1>projects</ProjectsH1>
+      <ProjectsH1>Projects</ProjectsH1>
       <ProjectsWrap>
         <ProjectsCard>
           <ProjectsIcon src={Pic1} />
@@ -24,6 +24,11 @@ const Projects = () => {
         </ProjectsCard>
         <ProjectsCard>
           <ProjectsIcon src={Pic2} />
+          <ProjectsH2>Wyld Card </ProjectsH2>
+          <ProjectsP>Lorem Ipsum</ProjectsP>
+        </ProjectsCard>
+        <ProjectsCard>
+          <ProjectsIcon src={Pic3} />
           <ProjectsH2>Wyld Card </ProjectsH2>
           <ProjectsP>Lorem Ipsum</ProjectsP>
         </ProjectsCard>
