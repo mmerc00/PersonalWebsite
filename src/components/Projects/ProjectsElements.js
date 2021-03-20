@@ -14,7 +14,7 @@ export const ProjectsContainer = styled.div`
   }
 `;
 export const ProjectsWrap = styled.div`
-  max-width: 1000px;
+  max-width: 1660px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
