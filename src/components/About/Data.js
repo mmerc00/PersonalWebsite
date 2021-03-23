@@ -31,23 +31,8 @@ export const homeObjectTwo = {
   primary: true,
   darkText: false,
 };
+
 export const homeObjectThree = {
-  id: "projects",
-  lightBg: false,
-  lightText: true,
-  lightTextDesc: true,
-  topLine: "Projects",
-  headLine: "take a peek!",
-  description: "cards coming soon ",
-  buttonLabel: "btn",
-  imgStart: false,
-  img: require("../../images/2.jpg"),
-  alt: "temp",
-  dark: false,
-  primary: true,
-  darkText: false,
-};
-export const homeObjectFour = {
   id: "connect",
   lightBg: true,
   lightText: true,
