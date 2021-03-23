@@ -1,5 +1,4 @@
 import React from "react";
-import projects from "../Projects";
 import { FaBars } from "react-icons/fa";
 import {
   Nav,
