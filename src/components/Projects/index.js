@@ -20,21 +20,23 @@ const Projects = () => {
         <ProjectsCard>
           <ProjectsIcon src={Pic1} />
           <ProjectsH2>Wyld Card </ProjectsH2>
-          <ProjectsP>Lorem Ipsum</ProjectsP>
+          <ProjectsP>Card generator app based on occasion</ProjectsP>
         </ProjectsCard>
         <ProjectsCard>
           <ProjectsIcon src={Pic2} />
-          <ProjectsH2>Wyld Card </ProjectsH2>
-          <ProjectsP>Lorem Ipsum</ProjectsP>
+          <ProjectsH2>The Village </ProjectsH2>
+          <ProjectsP>App that allows users to post anon by zip code</ProjectsP>
         </ProjectsCard>
         <ProjectsCard>
           <ProjectsIcon src={Pic3} />
-          <ProjectsH2>Wyld Card </ProjectsH2>
-          <ProjectsP>Lorem Ipsum</ProjectsP>
+          <ProjectsH2>ZAP</ProjectsH2>
+          <ProjectsP>
+            Video game app which pulls up ratings, price and preview
+          </ProjectsP>
         </ProjectsCard>
         <ProjectsCard>
           <ProjectsIcon src={Pic3} />
-          <ProjectsH2>Wyld Card </ProjectsH2>
+          <ProjectsH2>TBD </ProjectsH2>
           <ProjectsP>Lorem Ipsum</ProjectsP>
         </ProjectsCard>
       </ProjectsWrap>
