@@ -1,12 +1,13 @@
 import styled from "styled-components";
 
 export const HeroContainer = styled.div`
+  margin-top: -90px;
   display: flex;
   background: #0c0c0c;
   justify-content: center;
   position: relative;
   padding: 0 30px;
-  height: 800px;
+  height: 900px;
   align-items: center;
   z-index: 1;
 `;
@@ -32,7 +33,7 @@ export const HeroSectionContent = styled.div`
   background-color: transparent;
   justify-content: center;
   position: absolute;
-  height: 800px;
+  height: 900px;
   z-index: 3;
   align-items: center;
 `;
