@@ -8,7 +8,7 @@ export const homeObjectOne = {
   description: "I am full stack web developer with an eye for design. ",
   buttonLabel: "btn",
   imgStart: false,
-  img: require("../../images/2.jpg"),
+  img: require("../../images/8.jpg"),
   alt: "About Me",
   dark: true,
   primary: true,
@@ -24,7 +24,7 @@ export const homeObjectTwo = {
   description: "Learning through Udemy & YouTube",
   buttonLabel: "btn",
   imgStart: true,
-  img: require("../../images/2.jpg"),
+  img: require("../../images/8.jpg"),
 
   alt: "temp",
   dark: false,
@@ -42,7 +42,7 @@ export const homeObjectThree = {
   description: "LinkedIn & Github",
   buttonLabel: "btn",
   imgStart: true,
-  img: require("../../images/2.jpg"),
+  img: require("../../images/8.jpg"),
 
   alt: "temp",
   dark: false,
