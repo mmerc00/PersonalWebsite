@@ -1,4 +1,6 @@
 import React from "react";
+import { FaGithub } from "react-icons/fa";
+
 import Pic1 from "../../images/4.jpg";
 import Pic2 from "../../images/4.jpg";
 import Pic3 from "../../images/4.jpg";
@@ -11,6 +13,7 @@ import {
   ProjectsH1,
   ProjectsIcon,
 } from "./ProjectsElements";
+import { Button } from "../ButtonElements";
 
 const Projects = () => {
   return (
@@ -21,11 +24,32 @@ const Projects = () => {
           <ProjectsIcon src={Pic1} />
           <ProjectsH2>Wyld Card </ProjectsH2>
           <ProjectsP>Card generator app based on occasion</ProjectsP>
+          <Button
+            to="home"
+            smooth={true}
+            duration={500}
+            exact="true"
+            spy={true}
+            offset={-60}
+          >
+            GitHub
+          </Button>
+          <Button
+            to="home"
+            smooth={true}
+            duration={500}
+            exact="true"
+            spy={true}
+            offset={-60}
+          >
+            Deployed link
+          </Button>
         </ProjectsCard>
         <ProjectsCard>
           <ProjectsIcon src={Pic2} />
           <ProjectsH2>The Village </ProjectsH2>
           <ProjectsP>App that allows users to post anon by zip code</ProjectsP>
+          <FaGithub to="https://github.com/mmerc00" />
         </ProjectsCard>
         <ProjectsCard>
           <ProjectsIcon src={Pic3} />
