@@ -5,7 +5,7 @@ export const ProjectsContainer = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background: #ca674b;
+  background: #ecc594;
   @media screen and (max-width: 768px) {
     height: 1100px;
   }
@@ -26,7 +26,7 @@ export const ProjectsWrap = styled.div`
   }
 
   @media screen and (max-width: 768px) {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
     padding: 0 20px;
   }
 `;
@@ -80,4 +80,11 @@ export const ProjectsH2 = styled.h2`
 export const ProjectsP = styled.p`
   text-align: center;
   font-size: 1 rem;
+`;
+
+export const ProjectsP2 = styled.p`
+  margin-bottom: 30px;
+  font-size: 1.5rem;
+  margin-top: -10px;
+  cursor: pointer;
 `;

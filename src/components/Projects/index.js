@@ -11,6 +11,7 @@ import {
   ProjectsWrap,
   ProjectsCard,
   ProjectsH1,
+  ProjectsP2,
   ProjectsIcon,
 } from "./ProjectsElements";
 import { Button } from "../ButtonElements";
@@ -19,11 +20,16 @@ const Projects = () => {
   return (
     <ProjectsContainer id="projects">
       <ProjectsH1>Projects</ProjectsH1>
+      <ProjectsP2>
+        Here are just a few of my projects, check out my GitHub to view more
+      </ProjectsP2>
+
       <ProjectsWrap>
         <ProjectsCard>
           <ProjectsIcon src={Pic1} />
           <ProjectsH2>Wyld Card </ProjectsH2>
           <ProjectsP>Card generator app based on occasion</ProjectsP>
+          <Button href="https://github.com/mmerc00">View Code</Button>
           <Button
             to="home"
             smooth={true}
@@ -32,17 +38,7 @@ const Projects = () => {
             spy={true}
             offset={-60}
           >
-            GitHub
-          </Button>
-          <Button
-            to="home"
-            smooth={true}
-            duration={500}
-            exact="true"
-            spy={true}
-            offset={-60}
-          >
-            Deployed link
+            View Site
           </Button>
         </ProjectsCard>
         <ProjectsCard>
@@ -55,7 +51,7 @@ const Projects = () => {
           <ProjectsIcon src={Pic3} />
           <ProjectsH2>ZAP</ProjectsH2>
           <ProjectsP>
-            Video game app which pulls up ratings, price and preview
+            Video game app which pulls up ratings, prices and a video preview
           </ProjectsP>
         </ProjectsCard>
         <ProjectsCard>
