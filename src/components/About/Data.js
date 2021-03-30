@@ -34,7 +34,7 @@ export const homeObjectTwo = {
 
 export const homeObjectThree = {
   id: "connect",
-  lightBg: true,
+  lightBg: false,
   lightText: true,
   lightTextDesc: true,
   topLine: "",
@@ -45,7 +45,7 @@ export const homeObjectThree = {
   img: require("../../images/8.jpg"),
 
   alt: "temp",
-  dark: false,
+  dark: true,
   primary: true,
   darkText: false,
 };
