@@ -30,25 +30,23 @@ const Projects = () => {
           <ProjectsIcon src={Pic1} />
           <ProjectsH2>Wyld Card </ProjectsH2>
           <ProjectsP>Card generator app based on occasion</ProjectsP>
-          <FaGithub href="https://github.com/mmerc00" />
-          <GrDeploy></GrDeploy>
-          {/* <Button href="https://github.com/mmerc00">View Code</Button>
-          <Button
-            to="home"
-            smooth={true}
-            duration={500}
-            exact="true"
-            spy={true}
-            offset={-60}
-          >
-            View Site
-          </Button> */}
+          <a href="https://github.com/D-Brewst/Project3">
+            <FaGithub> </FaGithub>
+          </a>
+          <a href="https://aqueous-waters-16244.herokuapp.com/">
+            <GrDeploy> </GrDeploy>
+          </a>
         </ProjectsCard>
         <ProjectsCard>
           <ProjectsIcon src={Pic2} />
           <ProjectsH2>The Village </ProjectsH2>
           <ProjectsP>App that allows users to post anon by zip code</ProjectsP>
-          <FaGithub href="https://github.com/mmerc00" />
+          <a href="https://github.com/kao-ring/Project-2">
+            <FaGithub> </FaGithub>
+          </a>
+          <a href="limitless-refuge-18664.herokuapp.com/">
+            <GrDeploy> </GrDeploy>
+          </a>{" "}
         </ProjectsCard>
         <ProjectsCard>
           <ProjectsIcon src={Pic3} />
@@ -56,13 +54,23 @@ const Projects = () => {
           <ProjectsP>
             Video game app which pulls up ratings, prices and a video preview
           </ProjectsP>
-          <FaGithub href="https://github.com/mmerc00" />
+          <a href="https://github.com/jamesrowe1/ZAP">
+            <FaGithub> </FaGithub>
+          </a>
+          <a href="https://jamesrowe1.github.io/ZAP/">
+            <GrDeploy> </GrDeploy>
+          </a>
         </ProjectsCard>
         <ProjectsCard>
           <ProjectsIcon src={Pic3} />
           <ProjectsH2>TBD </ProjectsH2>
           <ProjectsP>Lorem Ipsum</ProjectsP>
-          <FaGithub href="https://github.com/mmerc00" />
+          <a href="https://github.com/mmerc00">
+            <FaGithub> </FaGithub>
+          </a>
+          <a href="https://github.com/mmerc00">
+            <GrDeploy> </GrDeploy>
+          </a>{" "}
         </ProjectsCard>
       </ProjectsWrap>
     </ProjectsContainer>
