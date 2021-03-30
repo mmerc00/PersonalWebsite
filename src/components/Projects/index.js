@@ -1,5 +1,6 @@
 import React from "react";
 import { FaGithub } from "react-icons/fa";
+import { GrDeploy } from "react-icons/gr";
 
 import Pic1 from "../../images/4.jpg";
 import Pic2 from "../../images/4.jpg";
@@ -30,7 +31,7 @@ const Projects = () => {
           <ProjectsH2>Wyld Card </ProjectsH2>
           <ProjectsP>Card generator app based on occasion</ProjectsP>
           <FaGithub href="https://github.com/mmerc00" />
-
+          <GrDeploy></GrDeploy>
           {/* <Button href="https://github.com/mmerc00">View Code</Button>
           <Button
             to="home"
