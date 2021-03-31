@@ -33,7 +33,7 @@ const Projects = () => {
           <ProjectsH2>Wyld Card </ProjectsH2>
           <ProjectsP>Card generator app based on occasion</ProjectsP>
           <a href="https://github.com/D-Brewst/Project3">
-            <FaGithub> </FaGithub>
+            <FaGithub color="#482732"> </FaGithub>
           </a>
           <a href="https://aqueous-waters-16244.herokuapp.com/">
             <GrDeploy> </GrDeploy>
@@ -44,7 +44,7 @@ const Projects = () => {
           <ProjectsH2>The Village </ProjectsH2>
           <ProjectsP>App that allows users to post anon by zip code</ProjectsP>
           <a href="https://github.com/kao-ring/Project-2">
-            <FaGithub> </FaGithub>
+            <FaGithub color="#482732"> </FaGithub>
           </a>
           <a href="limitless-refuge-18664.herokuapp.com/">
             <GrDeploy> </GrDeploy>
@@ -57,7 +57,7 @@ const Projects = () => {
             Video game app which pulls up ratings, prices and a video preview
           </ProjectsP>
           <a href="https://github.com/jamesrowe1/ZAP">
-            <FaGithub> </FaGithub>
+            <FaGithub color="#482732"> </FaGithub>
           </a>
           <a href="https://jamesrowe1.github.io/ZAP/">
             <GrDeploy> </GrDeploy>
@@ -68,7 +68,7 @@ const Projects = () => {
           <ProjectsH2>TBD </ProjectsH2>
           <ProjectsP>Lorem Ipsum</ProjectsP>
           <a href="https://github.com/mmerc00">
-            <FaGithub> </FaGithub>
+            <FaGithub color="#482732"> </FaGithub>
           </a>
           <a href="https://github.com/mmerc00">
             <GrDeploy> </GrDeploy>
