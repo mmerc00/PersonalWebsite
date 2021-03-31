@@ -2,9 +2,11 @@ import React from "react";
 import { FaGithub } from "react-icons/fa";
 import { GrDeploy } from "react-icons/gr";
 
-import Pic1 from "../../images/4.jpg";
-import Pic2 from "../../images/4.jpg";
-import Pic3 from "../../images/4.jpg";
+import Pic1 from "../../images/wyldcard.png";
+import Pic2 from "../../images/village.png";
+import Pic3 from "../../images/zap.png";
+import Pic4 from "../../images/tbd.png";
+
 import {
   ProjectsContainer,
   ProjectsH2,
@@ -62,7 +64,7 @@ const Projects = () => {
           </a>
         </ProjectsCard>
         <ProjectsCard>
-          <ProjectsIcon src={Pic3} />
+          <ProjectsIcon src={Pic4} />
           <ProjectsH2>TBD </ProjectsH2>
           <ProjectsP>Lorem Ipsum</ProjectsP>
           <a href="https://github.com/mmerc00">
