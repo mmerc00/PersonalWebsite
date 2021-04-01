@@ -1,7 +1,7 @@
 import styled from "styled-components";
 export const AboutContainer = styled.div`
   background: #001a33;
-  background: ${({ lightBg }) => (lightBg ? "#77928A" : "#000d1a")};
+  background: ${({ lightBg }) => (lightBg ? "#F8F0C6" : "#000d1a")};
   @media screen and (max-width: 768px) {
     padding: 100px 0;
   }
