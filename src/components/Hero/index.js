@@ -7,14 +7,14 @@ import {
   HeroSectionContent,
   HeroText,
 } from "./HeroElements";
-import Beach from "../../videos/Beach.mp4";
+import Floral from "../../videos/FloralArranging.mp4";
 
 const Hero = () => {
   //photo can be added here as background or a block of color
   return (
     <HeroContainer>
       <HeroBackground>
-        <VideoBackground autoPlay loop muted src={Beach} type="video/mp4" />
+        <VideoBackground autoPlay loop muted src={Floral} type="video/mp4" />
       </HeroBackground>
       <HeroSectionContent>
         <HeroText>Not Your Average Web Developer</HeroText>
