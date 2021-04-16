@@ -4,11 +4,7 @@ import Hamburger from "../components/Hamburger";
 import Hero from "../components/Hero";
 import About from "../components/About";
 import Projects from "../components/Projects";
-import {
-  homeObjectOne,
-  homeObjectTwo,
-  homeObjectThree,
-} from "../components/About/Data";
+import { homeObjectOne, homeObjectTwo } from "../components/About/Data";
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -24,7 +20,6 @@ const Home = () => {
       <About {...homeObjectOne} />
       <About {...homeObjectTwo} />
       <Projects />
-      <About {...homeObjectThree} />
     </>
   );
 };

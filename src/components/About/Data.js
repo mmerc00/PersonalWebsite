@@ -32,7 +32,7 @@ export const homeObjectTwo = {
   darkText: false,
 };
 
-export const homeObjectThree = {
+/* export const homeObjectThree = {
   id: "connect",
   lightBg: false,
   lightText: true,
@@ -48,4 +48,4 @@ export const homeObjectThree = {
   dark: true,
   primary: true,
   darkText: false,
-};
+}; */
