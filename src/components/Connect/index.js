@@ -1,14 +1,20 @@
 import React from "react";
 import book from "../../images/wavesOpacity.svg";
-import { ConnectContainer, ConnectP, ConnectH1 } from "./ConnectElements";
+import {
+  ConnectContainer,
+  ConnectP,
+  ConnectH1,
+  ConnectWrap,
+} from "./ConnectElements";
 //insert wrapper
 const Connect = () => {
   return (
     <ConnectContainer id="connect">
       <img src={book} alt="divider" />
-
-      <ConnectH1>Let's Connect</ConnectH1>
-      <ConnectP>Open for collaborations and full-stack positions</ConnectP>
+      <ConnectWrap>
+        <ConnectH1>Let's Connect</ConnectH1>
+        <ConnectP>Open for collaborations and full-stack positions</ConnectP>
+      </ConnectWrap>
     </ConnectContainer>
   );
 };

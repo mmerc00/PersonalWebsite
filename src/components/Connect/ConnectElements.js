@@ -16,7 +16,7 @@ export const ConnectContainer = styled.div`
 export const ConnectH1 = styled.h1`
   margin-bottom: 60px;
   font-size: 3rem;
-  color: #fff;
+  color: #433e0e;
   margin-left: 40px;
   @media screen and (max-width: 480px) {
     font-size: 2 rem;
@@ -27,3 +27,5 @@ export const ConnectP = styled.p`
   text-align: center;
   font-size: 1 rem;
 `;
+
+export const ConnectWrap = styled.div``;
