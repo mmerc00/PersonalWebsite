@@ -15,7 +15,7 @@ export const homeObjectOne = {
   primary: true,
   darkText: false,
 };
-export const homeObjectTwo = {
+/* export const homeObjectTwo = {
   id: "skills",
   lightBg: true,
   lightText: true,
@@ -24,14 +24,14 @@ export const homeObjectTwo = {
   headLine: "Languages I am learning:",
   description: "Learning through Udemy & YouTube",
   buttonLabel: "btn",
-  imgStart: true,
+  imgStart: false,
   img: require("../../images/8.jpg"),
 
   alt: "temp",
   dark: false,
   primary: true,
   darkText: false,
-};
+}; */
 
 /* export const homeObjectThree = {
   id: "connect",

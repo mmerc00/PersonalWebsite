@@ -6,7 +6,7 @@ import About from "../components/About";
 import Projects from "../components/Projects";
 import Connect from "../components/Connect";
 
-import { homeObjectOne, homeObjectTwo } from "../components/About/Data";
+import { homeObjectOne } from "../components/About/Data";
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -20,7 +20,6 @@ const Home = () => {
       <Navbar toggle={toggle} />
       <Hero />
       <About {...homeObjectOne} />
-      <About {...homeObjectTwo} />
       <Projects />
       <Connect />
     </>
