@@ -50,7 +50,7 @@ export const TopLine = styled.p`
   font-weight: 700px;
   letter-spacing: 1.4px;
   text-transform: uppercase;
-  margin-bottom: 160px;
+  margin-bottom: 100px;
 `;
 export const Heading = styled.h1`
   margin-bottom: 24px;
@@ -65,9 +65,9 @@ export const Heading = styled.h1`
 export const Subtitle = styled.p`
   max-width: 440px;
   margin-bottom: 30px;
-  font-size: 18px;
+  font-size: 21px;
   line-height: 24px;
-  color: ${({ darkText }) => (darkText ? "#0f001a" : "#f5e6ff")};
+  color: ${({ darkText }) => (darkText ? "#0f001a" : "#433e0e")};
 `;
 export const BtnWrap = styled.div`
   display: flex;
