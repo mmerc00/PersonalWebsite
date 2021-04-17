@@ -1,11 +1,10 @@
 import styled from "styled-components";
 export const ConnectContainer = styled.div`
-  height: 800px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background: #d0c88e;
+  background: #ffff;
   @media screen and (max-width: 768px) {
     height: 1100px;
   }
