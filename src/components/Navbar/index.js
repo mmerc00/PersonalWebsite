@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import Pdf from "../../assets/TEMPPDF.pdf";
 import { FaBars } from "react-icons/fa";
 import {
   Nav,
@@ -48,8 +49,10 @@ const Navbar = ({ toggle }) => {
             </NavItem>
           </NavMenu>
           <NavBtn>
-            <NavBtnLink to="/signin">Resumé</NavBtnLink>
-          </NavBtn>
+            <NavBtnLink href={Pdf} rel="noopener noreferrer" target="_blank">
+              Resume
+            </NavBtnLink>
+          </NavBtn>{" "}
         </NavbarContainer>
       </Nav>
     </>
