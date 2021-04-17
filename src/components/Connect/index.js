@@ -4,7 +4,7 @@ import { ConnectContainer, ConnectP, ConnectH1 } from "./ConnectElements";
 //insert wrapper
 const Connect = () => {
   return (
-    <ConnectContainer id="Connect">
+    <ConnectContainer id="connect">
       <img src={book} alt="divider" />
 
       <ConnectH1>Let's Connect</ConnectH1>

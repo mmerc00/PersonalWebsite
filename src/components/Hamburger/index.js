@@ -19,23 +19,20 @@ const Hamburger = ({ isOpen, toggle }) => {
       <SidebarWrapper>
         <SidebarMenu>
           <SidebarLink to="about" onClick={toggle}>
-            about
+            About
           </SidebarLink>
           <SidebarLink to="skills" onClick={toggle}>
-            skills
+            Skills
           </SidebarLink>
           <SidebarLink to="projects" onClick={toggle}>
-            projects
+            Projects
           </SidebarLink>
           <SidebarLink to="connect" onClick={toggle}>
-            connect
-          </SidebarLink>
-          <SidebarLink to="signin" onClick={toggle}>
-            signin TEMP
+            Contact
           </SidebarLink>
         </SidebarMenu>
         <SideBtnWrap>
-          <SideBarRoute to="/signin">TEMP BTN</SideBarRoute>
+          <SideBarRoute to="/signin">Resumé</SideBarRoute>
         </SideBtnWrap>
       </SidebarWrapper>
     </HamburgerContainer>

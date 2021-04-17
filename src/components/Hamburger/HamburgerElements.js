@@ -8,7 +8,7 @@ position: fixed;
 z-index: 999;
 width: 100%;
 height: 99%;
-background: #000d1a;
+background: #7c9082;
 ;
 display: grid;
 align-items: center;
@@ -50,7 +50,7 @@ export const SidebarLink = styled(LinkScroll)`
 
   &:hover {
     transition: 0.2s ease-in-out;
-    color: #01bf71;
+    color: #000d1a;
   }
 `;
 
@@ -68,7 +68,7 @@ export const SideBtnWrap = styled.div`
   justify-content: center;
 `;
 export const SideBarRoute = styled(LinkR)`
-  background: #99ffcc;
+  background: #fff;
   padding: 16px 62px;
   color: #ff5050;
   font-size: 12px;
@@ -81,7 +81,7 @@ export const SideBarRoute = styled(LinkR)`
 
   &:hover {
     transition: 0.2s ease-in-out;
-    background: #333399;
-    color: #3366cc;
+    background: #edeec0;
+    color: #000d1a;
   }
 `;

@@ -44,11 +44,11 @@ const Navbar = ({ toggle }) => {
               <NavLinks to="projects">Projects</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to="connect">Connect</NavLinks>
+              <NavLinks to="connect">Contact</NavLinks>
             </NavItem>
           </NavMenu>
           <NavBtn>
-            <NavBtnLink to="/signin">Resume</NavBtnLink>
+            <NavBtnLink to="/signin">Resumé</NavBtnLink>
           </NavBtn>
         </NavbarContainer>
       </Nav>
