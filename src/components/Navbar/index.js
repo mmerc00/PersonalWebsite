@@ -49,7 +49,7 @@ const Navbar = ({ toggle }) => {
             </NavItem>
           </NavMenu>
           <NavBtn>
-            <NavBtnLink href={Pdf} rel="noopener noreferrer" target="_blank">
+            <NavBtnLink to={Pdf} rel="noopener noreferrer" target="_blank">
               Resume
             </NavBtnLink>
           </NavBtn>{" "}
