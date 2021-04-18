@@ -1,4 +1,6 @@
 import React from "react";
+import waves from "../../images/waves.svg";
+
 import { FaGithub, FaNode, FaHtml5 } from "react-icons/fa";
 import {
   DiMongodb,
@@ -28,29 +30,31 @@ import {
 const Skills = () => {
   return (
     <SkillsContainer id="skills">
+      <img src={waves} alt="divider" />
+
       <SkillsH1>Skills</SkillsH1>
       <SkillsP>
-        My hunger for learning code never stops but here are the technologies I
-        have worked with languages and frameworks{" "}
+        My hunger for learning new languages never stops but here are the
+        technologies and languages I have worked with{" "}
       </SkillsP>
 
       <SkillsWrap>
-        <FaGithub />
-        <DiMongodb />
-        <DiReact />
-        <FaNode />
-        <DiGithubFull />
-        <SiJavascript />
-        <DiHtml5 />
-        <SiAdobephotoshop />
-        <DiBootstrap />
-        <DiHeroku />
-        <DiJqueryLogo />
-        <FaHtml5 />
-        <SiCsswizardry />
-        <SiMysql />
-        <DiNpm />
-        <SiAdobeindesign />
+        <FaGithub size="3em" color="433e0e" />
+        <DiMongodb size="3em" color="433e0e" />
+        <DiReact size="3em" color="433e0e" />
+        <FaNode size="3em" color="433e0e" />
+        <DiGithubFull size="3em" color="433e0e" />
+        <SiJavascript size="3em" color="433e0e" />
+        <DiHtml5 size="3em" color="433e0e" />
+        <SiAdobephotoshop size="3em" color="433e0e" />
+        <DiBootstrap size="3em" color="433e0e" />
+        <DiHeroku size="3em" color="433e0e" />
+        <DiJqueryLogo size="3em" color="433e0e" />
+        <FaHtml5 size="3em" color="433e0e" />
+        <SiCsswizardry size="3em" color="433e0e" />
+        <SiMysql size="3em" color="433e0e" />
+        <DiNpm size="3em" color="433e0e" />
+        <SiAdobeindesign size="3em" color="433e0e" />
       </SkillsWrap>
     </SkillsContainer>
   );

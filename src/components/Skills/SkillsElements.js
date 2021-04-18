@@ -44,5 +44,5 @@ export const SkillsH1 = styled.h1`
 export const SkillsP = styled.p`
   margin-bottom: 40px;
   text-align: center;
-  font-size: 1 rem;
+  font-size: 1.2rem;
 `;
