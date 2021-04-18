@@ -1,5 +1,5 @@
 import React from "react";
-import waves from "../../images/waves.svg";
+import waves from "../../images/wwd.svg";
 
 import { FaGithub, FaNode, FaHtml5 } from "react-icons/fa";
 import {

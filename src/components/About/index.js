@@ -1,4 +1,5 @@
 import React from "react";
+
 import IMG from "../../images/6.jpg";
 import {
   AboutContainer,

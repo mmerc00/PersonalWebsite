@@ -38,3 +38,6 @@ export const SkillsP = styled.p`
   text-align: center;
   font-size: 1.2rem;
 `;
+export const waves = styled.img`
+  margin-top: 60px;
+`;
