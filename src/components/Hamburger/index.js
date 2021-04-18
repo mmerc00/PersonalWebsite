@@ -1,4 +1,5 @@
 import React from "react";
+import Pdf from "../../assets/TEMPPDF.pdf";
 import {
   HamburgerContainer,
   Icon,
@@ -32,7 +33,9 @@ const Hamburger = ({ isOpen, toggle }) => {
           </SidebarLink>
         </SidebarMenu>
         <SideBtnWrap>
-          <SideBarRoute to="/signin">Resumé</SideBarRoute>
+          <SideBarRoute to={Pdf} rel="noopener noreferrer" target="_blank">
+            Resume
+          </SideBarRoute>
         </SideBtnWrap>
       </SidebarWrapper>
     </HamburgerContainer>
