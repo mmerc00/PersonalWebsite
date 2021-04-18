@@ -41,11 +41,8 @@ export const SkillsH1 = styled.h1`
   }
 `;
 
-export const SkillsH2 = styled.h2`
-  margin-bottom: 20px;
-  font-size: 2rem;
-`;
 export const SkillsP = styled.p`
+  margin-bottom: 40px;
   text-align: center;
   font-size: 1 rem;
 `;

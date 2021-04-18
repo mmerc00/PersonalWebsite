@@ -1,6 +1,22 @@
 import React from "react";
-import { FaGithub } from "react-icons/fa";
-import { GrDeploy } from "react-icons/gr";
+import { FaGithub, FaNode, FaHtml5 } from "react-icons/fa";
+import {
+  DiMongodb,
+  DiReact,
+  DiGithubFull,
+  DiHtml5,
+  DiBootstrap,
+  DiHeroku,
+  DiJqueryLogo,
+  DiNpm,
+} from "react-icons/di";
+import {
+  SiJavascript,
+  SiAdobephotoshop,
+  SiCsswizardry,
+  SiMysql,
+  SiAdobeindesign,
+} from "react-icons/si";
 
 import {
   SkillsContainer,
@@ -8,29 +24,33 @@ import {
   SkillsH1,
   SkillsP,
 } from "./SkillsElements";
-//import { Button } from "../ButtonElements";
 
 const Skills = () => {
   return (
     <SkillsContainer id="skills">
       <SkillsH1>Skills</SkillsH1>
       <SkillsP>
-        Here are just a few of my Skills, check out my GitHub to view more
+        My hunger for learning code never stops but here are the technologies I
+        have worked with languages and frameworks{" "}
       </SkillsP>
 
       <SkillsWrap>
-        <a href="https://github.com/D-Brewst/Project3">
-          <FaGithub color="#482732"> </FaGithub>
-        </a>
-        <a href="https://aqueous-waters-16244.herokuapp.com/">
-          <GrDeploy> </GrDeploy>
-        </a>
-        <a href="https://github.com/kao-ring/Project-2">
-          <FaGithub color="#482732"> </FaGithub>
-        </a>
-        <a href="limitless-refuge-18664.herokuapp.com/">
-          <GrDeploy> </GrDeploy>
-        </a>{" "}
+        <FaGithub />
+        <DiMongodb />
+        <DiReact />
+        <FaNode />
+        <DiGithubFull />
+        <SiJavascript />
+        <DiHtml5 />
+        <SiAdobephotoshop />
+        <DiBootstrap />
+        <DiHeroku />
+        <DiJqueryLogo />
+        <FaHtml5 />
+        <SiCsswizardry />
+        <SiMysql />
+        <DiNpm />
+        <SiAdobeindesign />
       </SkillsWrap>
     </SkillsContainer>
   );
