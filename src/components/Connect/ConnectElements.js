@@ -15,6 +15,8 @@ export const ConnectContainer = styled.div`
 `;
 
 export const ConnectH1 = styled.h1`
+  margin-top: 100px;
+
   margin-bottom: 60px;
   font-size: 3rem;
   color: #433e0e;
@@ -29,7 +31,9 @@ export const ConnectP = styled.p`
   font-size: 1 rem;
 `;
 
-export const ConnectWrap = styled.div``;
+export const ConnectWrap = styled.div`
+  height: 500px;
+`;
 
 export const Book = styled.img`
   top: 0;

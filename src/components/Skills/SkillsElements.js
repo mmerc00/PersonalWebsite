@@ -25,7 +25,6 @@ export const SkillsWrap = styled.div`
 `;
 
 export const SkillsH1 = styled.h1`
-  margin-bottom: 60px;
   font-size: 3rem;
   color: #fff;
   margin-left: 40px;
