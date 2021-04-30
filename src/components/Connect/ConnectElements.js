@@ -1,6 +1,7 @@
 import styled from "styled-components";
 export const ConnectContainer = styled.div`
   display: flex;
+  position: relative;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -29,3 +30,8 @@ export const ConnectP = styled.p`
 `;
 
 export const ConnectWrap = styled.div``;
+
+export const Book = styled.img`
+  top: 0;
+  position: abosolute;
+`;
