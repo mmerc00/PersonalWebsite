@@ -25,13 +25,12 @@ import {
   SkillsWrap,
   SkillsH1,
   SkillsP,
+  Waves,
 } from "./SkillsElements";
-
 const Skills = () => {
   return (
     <SkillsContainer id="skills">
-      <img src={waves} alt="divider" />
-
+      <Waves src={waves} alt="divider" />
       <SkillsH1>Skills</SkillsH1>
       <SkillsP>
         My hunger for learning new languages never stops but here are the

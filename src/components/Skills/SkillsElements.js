@@ -1,5 +1,6 @@
 import styled from "styled-components";
 export const SkillsContainer = styled.div`
+  position: relative;
   height: 800px;
   display: flex;
   flex-direction: column;
@@ -38,6 +39,7 @@ export const SkillsP = styled.p`
   text-align: center;
   font-size: 1.2rem;
 `;
-export const waves = styled.img`
-  margin-top: 60px;
+export const Waves = styled.img`
+  top: 0;
+  position: absolute;
 `;
