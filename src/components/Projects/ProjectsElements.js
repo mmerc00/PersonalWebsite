@@ -74,12 +74,13 @@ export const ProjectsH1 = styled.h1`
 `;
 
 export const ProjectsH2 = styled.h2`
-  margin-bottom: 20px;
+  margin-bottom: 8px;
   font-size: 2rem;
 `;
 export const ProjectsP = styled.p`
   text-align: center;
   font-size: 1 rem;
+  margin-bottom: 8px;
 `;
 
 export const ProjectsP2 = styled.p`
@@ -87,4 +88,7 @@ export const ProjectsP2 = styled.p`
   font-size: 1.5rem;
   margin-top: -10px;
   cursor: pointer;
+`;
+export const IconWrap = styled.p`
+  display: inline-block;
 `;

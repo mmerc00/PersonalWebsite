@@ -16,6 +16,7 @@ import {
   ProjectsH1,
   ProjectsP2,
   ProjectsIcon,
+  IconWrap,
 } from "./ProjectsElements";
 //import { Button } from "../ButtonElements";
 
@@ -32,23 +33,27 @@ const Projects = () => {
           <ProjectsIcon src={Pic1} />
           <ProjectsH2>Wyld Card </ProjectsH2>
           <ProjectsP>Card generator app based on occasion</ProjectsP>
-          <a href="https://github.com/D-Brewst/Project3">
-            <FaGithub color="#482732"> </FaGithub>
-          </a>
-          <a href="https://aqueous-waters-16244.herokuapp.com/">
-            <GrDeploy> </GrDeploy>
-          </a>
+          <IconWrap>
+            <a href="https://github.com/D-Brewst/Project3">
+              <FaGithub color="#482732"> </FaGithub>
+            </a>
+            <a href="https://aqueous-waters-16244.herokuapp.com/">
+              <GrDeploy></GrDeploy>
+            </a>
+          </IconWrap>
         </ProjectsCard>
         <ProjectsCard>
           <ProjectsIcon src={Pic2} />
           <ProjectsH2>The Village </ProjectsH2>
           <ProjectsP>App that allows users to post anon by zip code</ProjectsP>
-          <a href="https://github.com/kao-ring/Project-2">
-            <FaGithub color="#482732"> </FaGithub>
-          </a>
-          <a href="limitless-refuge-18664.herokuapp.com/">
-            <GrDeploy> </GrDeploy>
-          </a>{" "}
+          <IconWrap>
+            <a href="https://github.com/kao-ring/Project-2">
+              <FaGithub color="#482732"> </FaGithub>
+            </a>
+            <a href="limitless-refuge-18664.herokuapp.com/">
+              <GrDeploy> </GrDeploy>
+            </a>{" "}
+          </IconWrap>
         </ProjectsCard>
         <ProjectsCard>
           <ProjectsIcon src={Pic3} />
@@ -56,23 +61,27 @@ const Projects = () => {
           <ProjectsP>
             Video game app which pulls up ratings, prices and a video preview
           </ProjectsP>
-          <a href="https://github.com/jamesrowe1/ZAP">
-            <FaGithub color="#482732"> </FaGithub>
-          </a>
-          <a href="https://jamesrowe1.github.io/ZAP/">
-            <GrDeploy> </GrDeploy>
-          </a>
+          <IconWrap>
+            <a href="https://github.com/jamesrowe1/ZAP">
+              <FaGithub color="#482732"> </FaGithub>
+            </a>
+            <a href="https://jamesrowe1.github.io/ZAP/">
+              <GrDeploy> </GrDeploy>
+            </a>
+          </IconWrap>
         </ProjectsCard>
         <ProjectsCard>
           <ProjectsIcon src={Pic4} />
           <ProjectsH2>TBD </ProjectsH2>
           <ProjectsP>Lorem Ipsum</ProjectsP>
-          <a href="https://github.com/mmerc00">
-            <FaGithub color="#482732"> </FaGithub>
-          </a>
-          <a href="https://github.com/mmerc00">
-            <GrDeploy> </GrDeploy>
-          </a>{" "}
+          <IconWrap>
+            <a href="https://github.com/mmerc00">
+              <FaGithub color="#482732"> </FaGithub>
+            </a>
+            <a href="https://github.com/mmerc00">
+              <GrDeploy> </GrDeploy>
+            </a>{" "}
+          </IconWrap>
         </ProjectsCard>
       </ProjectsWrap>
     </ProjectsContainer>
