@@ -91,4 +91,5 @@ export const ProjectsP2 = styled.p`
 `;
 export const IconWrap = styled.p`
   display: inline-block;
+  justify-content: space-between;
 `;
