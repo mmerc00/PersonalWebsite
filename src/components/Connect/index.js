@@ -6,6 +6,7 @@ import {
   ConnectH1,
   ConnectWrap,
   Book,
+  IconWrap,
 } from "./ConnectElements";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { GrMailOption } from "react-icons/gr";
@@ -16,10 +17,12 @@ const Connect = () => {
       <Book src={book} alt="divider" />
       <ConnectWrap>
         <ConnectH1>Let's Connect</ConnectH1>
-        <FaLinkedin size="3em" color="433e0e" />
-        <GrMailOption size="3em" color="433e0e" />
+        <IconWrap>
+          <FaLinkedin size="3em" color="433e0e" />
+          <GrMailOption size="3em" color="433e0e" />
 
-        <FaGithub size="3em" color="433e0e" />
+          <FaGithub size="3em" color="433e0e" />
+        </IconWrap>
         <ConnectP>Open for collaborations and full-stack positions</ConnectP>
       </ConnectWrap>
     </ConnectContainer>

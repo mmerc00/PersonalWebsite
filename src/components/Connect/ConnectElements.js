@@ -20,7 +20,7 @@ export const ConnectH1 = styled.h1`
   margin-bottom: 60px;
   font-size: 3rem;
   color: #433e0e;
-  margin-left: 40px;
+  margin-left: 120px;
   @media screen and (max-width: 480px) {
     font-size: 2 rem;
   }
@@ -28,7 +28,9 @@ export const ConnectH1 = styled.h1`
 
 export const ConnectP = styled.p`
   text-align: center;
-  font-size: 1 rem;
+  font-size: 1.5rem;
+  margin-top: 60px;
+  font-weight: 600px;
 `;
 
 export const ConnectWrap = styled.div`
@@ -38,4 +40,9 @@ export const ConnectWrap = styled.div`
 export const Book = styled.img`
   top: 0;
   position: abosolute;
+`;
+export const IconWrap = styled.div`
+  display: flex;
+  justify-content: space-around;
+  width: 110%;
 `;
