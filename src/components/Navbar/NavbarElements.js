@@ -36,7 +36,7 @@ export const NavLogo = styled(LinkR)`
   font-size: 1.9rem;
   display: flex;
   align-items: center;
-  margin-left: 24px;
+  margin-left: 14px;
   font-weight: bold;
   text-decoration: none;
 `;
@@ -83,8 +83,6 @@ export const NavLinks = styled(LinkScroll)`
     border-bottom: 3px solid #01bf71;
   }
 `;
-
-//sign in stuff (in the works)
 
 export const NavBtn = styled.nav`
   display: flex;

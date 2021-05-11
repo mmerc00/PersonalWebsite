@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Pdf from "../../assets/TEMPPDF.pdf";
 import { FaBars } from "react-icons/fa";
+import { animateScroll as scroll } from "react-scroll";
 import {
   Nav,
   NavbarContainer,
@@ -25,12 +26,16 @@ const Navbar = ({ toggle }) => {
   useEffect(() => {
     window.addEventListener("scroll", switchNav);
   }, []);
-
+  const scrollTop = () => {
+    scroll.scrollToTop();
+  };
   return (
     <>
       <Nav scrollNav={scrollNav}>
         <NavbarContainer>
-          <NavLogo to="/">Missy</NavLogo>
+          <NavLogo to="/" onClick={scrollTop}>
+            Melissa Mercado
+          </NavLogo>
           <MobileIcon onClick={toggle}>
             <FaBars />
           </MobileIcon>
