@@ -92,4 +92,5 @@ export const ProjectsP2 = styled.p`
 export const IconWrap = styled.div`
   display: flex;
   justify-content: space-around;
+  width: 70%;
 `;
