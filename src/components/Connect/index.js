@@ -23,7 +23,7 @@ const Connect = () => {
 
           <FaGithub size="3em" color="433e0e" />
         </IconWrap>
-        <ConnectP>Open for collaborations and full-stack positions</ConnectP>
+        <ConnectP>under construction</ConnectP>
       </ConnectWrap>
     </ConnectContainer>
   );
