@@ -89,7 +89,7 @@ export const ProjectsP2 = styled.p`
   margin-top: -10px;
   cursor: pointer;
 `;
-export const IconWrap = styled.p`
-  display: inline-block;
-  justify-content: space-between;
+export const IconWrap = styled.div`
+  display: flex;
+  justify-content: space-around;
 `;
