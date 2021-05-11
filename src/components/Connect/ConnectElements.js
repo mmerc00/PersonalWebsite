@@ -20,7 +20,7 @@ export const ConnectH1 = styled.h1`
   margin-bottom: 60px;
   font-size: 3rem;
   color: #433e0e;
-  margin-left: 120px;
+  margin-left: 140px;
   @media screen and (max-width: 480px) {
     font-size: 2 rem;
   }
@@ -34,7 +34,7 @@ export const ConnectP = styled.p`
 `;
 
 export const ConnectWrap = styled.div`
-  height: 500px;
+  height: 600px;
 `;
 
 export const Book = styled.img`
