@@ -1,17 +1,10 @@
 import React from "react";
-import {
-  FooterContainer,
-  FooterWrapper,
-  FooterLinks,
-  FooterLinksWrap,
-} from "./ConnectElements";
+import { FooterContainer, FooterWrapper, FooterP } from "./FooterElements";
 const Footer = () => {
   return (
     <FooterContainer>
       <FooterWrapper>
-        <FooterLinks>
-          <FooterLinksWrap></FooterLinksWrap>
-        </FooterLinks>
+        <FooterP>Made with </FooterP>
       </FooterWrapper>
     </FooterContainer>
   );
