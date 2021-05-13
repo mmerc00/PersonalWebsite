@@ -6,6 +6,7 @@ export const SkillsContainer = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
+
   background: #d0c88e;
   @media screen and (max-width: 768px) {
     height: 1100px;
@@ -26,7 +27,7 @@ export const SkillsWrap = styled.div`
 
 export const SkillsH1 = styled.h1`
   font-size: 3rem;
-  color: #fff;
+  color: #2b3330;
   margin-left: 40px;
   @media screen and (max-width: 480px) {
     font-size: 2 rem;
@@ -37,6 +38,7 @@ export const SkillsP = styled.p`
   margin-bottom: 40px;
   text-align: center;
   font-size: 1.2rem;
+  color: #2b3330;
 `;
 export const Waves = styled.img`
   top: 0;

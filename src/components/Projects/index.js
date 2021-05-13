@@ -81,8 +81,8 @@ const Projects = () => {
         </ProjectsCard>
         <ProjectsCard>
           <ProjectsIcon src={Pic4} />
-          <ProjectsH2>TBD </ProjectsH2>
-          <ProjectsP>Lorem Ipsum</ProjectsP>
+          <ProjectsH2>Plant Finder</ProjectsH2>
+          <ProjectsP>App for plant newbies</ProjectsP>
           <IconWrap>
             <a href="https://github.com/mmerc00">
               <FaGithub color="#482732" size="1.5em">

@@ -3,10 +3,10 @@ export const homeObjectOne = {
   lightBg: false,
   lightText: true,
   lightTextDesc: true,
-  topLine: "Welcome!",
-  headLine: "Hi, my name is Melissa",
+  topLine: "Welcome,",
+  headLine: "Hi my name is Melissa and...",
   description:
-    "I am a full stack web developer with an eye for design and a passion for creativity. I graduated Pennsylvania State University with a bachelors in Telecomunications. In my undergrad I immersed myself in all things graphic design. When the pandemic hit I enrolled in Columbia University's full stack certification program. I love to learn new languages and incroporate my graphic design skills with web development.  ",
+    "I'm a full stack web developer with an eye for design and a passion for creativity. I graduated Pennsylvania State University with a bachelors in Telecomunications. In my undergrad I immersed myself in all things graphic design. When the pandemic hit I enrolled in Columbia University's full stack certification program. I love to learn new languages and incroporate my graphic design skills with web development.  ",
   buttonLabel: "Discover More",
   imgStart: false,
   img: require("../../images/8.jpg"),

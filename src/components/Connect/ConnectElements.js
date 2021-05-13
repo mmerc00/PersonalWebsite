@@ -5,7 +5,8 @@ export const ConnectContainer = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background: #ffff;
+  background: linear-gradient(to bottom, #d0c88e 0%, #ffffff 100%);
+
   @media screen and (max-width: 768px) {
     height: 1100px;
   }

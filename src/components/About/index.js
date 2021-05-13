@@ -40,7 +40,7 @@ const About = ({
                 <Subtitle darkText={darkText}>{description}</Subtitle>
                 <BtnWrap>
                   <Button
-                    to="home"
+                    to="connect"
                     smooth={true}
                     duration={500}
                     exact="true"
