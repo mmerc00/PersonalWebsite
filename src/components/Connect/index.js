@@ -9,7 +9,7 @@ import {
   IconWrap,
 } from "./ConnectElements";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
-import { GrMailOption } from "react-icons/gr";
+import { GrMail } from "react-icons/gr";
 
 const Connect = () => {
   return (
@@ -19,7 +19,7 @@ const Connect = () => {
         <ConnectH1>Let's Connect</ConnectH1>
         <IconWrap>
           <FaLinkedin size="3em" color="433e0e" />
-          <GrMailOption size="3em" color="433e0e" />
+          <GrMail size="3em" color="433e0e" />
 
           <FaGithub size="3em" color="433e0e" />
         </IconWrap>

@@ -1,7 +1,6 @@
 import React from "react";
 import { FaGithub } from "react-icons/fa";
-import { GrDeploy } from "react-icons/gr";
-
+import { GoRocket } from "react-icons/go";
 import Pic1 from "../../images/wyldcard.png";
 import Pic2 from "../../images/village.png";
 import Pic3 from "../../images/zap.png";
@@ -40,7 +39,7 @@ const Projects = () => {
               </FaGithub>
             </a>
             <a href="https://aqueous-waters-16244.herokuapp.com/">
-              <GrDeploy color="#482732" size="1.5em"></GrDeploy>
+              <GoRocket color="#482732" size="1.5em"></GoRocket>
             </a>
           </IconWrap>
         </ProjectsCard>
@@ -55,9 +54,9 @@ const Projects = () => {
               </FaGithub>
             </a>
             <a href="limitless-refuge-18664.herokuapp.com/">
-              <GrDeploy color="#482732" size="1.5em">
+              <GoRocket color="#482732" size="1.5em">
                 {" "}
-              </GrDeploy>
+              </GoRocket>
             </a>{" "}
           </IconWrap>
         </ProjectsCard>
@@ -74,9 +73,9 @@ const Projects = () => {
               </FaGithub>
             </a>
             <a href="https://jamesrowe1.github.io/ZAP/">
-              <GrDeploy color="#482732" size="1.5em">
+              <GoRocket color="#482732" size="1.5em">
                 {" "}
-              </GrDeploy>
+              </GoRocket>
             </a>
           </IconWrap>
         </ProjectsCard>
@@ -91,9 +90,9 @@ const Projects = () => {
               </FaGithub>
             </a>
             <a href="https://github.com/mmerc00">
-              <GrDeploy color="#482732" size="1.5em">
+              <GoRocket color="#482732" size="1.5em">
                 {" "}
-              </GrDeploy>
+              </GoRocket>
             </a>{" "}
           </IconWrap>
         </ProjectsCard>
