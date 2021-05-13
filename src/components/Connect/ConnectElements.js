@@ -19,7 +19,7 @@ export const ConnectH1 = styled.h1`
 
   margin-bottom: 60px;
   font-size: 3rem;
-  color: #433e0e;
+  color: #2b3330;
   margin-left: 140px;
   @media screen and (max-width: 480px) {
     font-size: 2 rem;
@@ -46,3 +46,5 @@ export const IconWrap = styled.div`
   justify-content: space-around;
   width: 110%;
 `;
+
+//#ffd6c7 pale pink background want to incoporate

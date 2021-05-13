@@ -1,20 +1,19 @@
 import React from "react";
-import book from "../../images/wavesOpacity.svg";
+//import book from "../../images/wavesOpacity.svg";
 import {
   ConnectContainer,
   ConnectP,
   ConnectH1,
   ConnectWrap,
-  Book,
+  //Book,
   IconWrap,
 } from "./ConnectElements";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { GrMail } from "react-icons/gr";
-
+//<Book src={book} alt="divider" />
 const Connect = () => {
   return (
     <ConnectContainer id="connect">
-      <Book src={book} alt="divider" />
       <ConnectWrap>
         <ConnectH1>Let's Connect</ConnectH1>
         <IconWrap>
@@ -23,7 +22,7 @@ const Connect = () => {
 
           <FaGithub size="3em" color="433e0e" />
         </IconWrap>
-        <ConnectP>under construction</ConnectP>
+        <ConnectP>Under Construction</ConnectP>
       </ConnectWrap>
     </ConnectContainer>
   );

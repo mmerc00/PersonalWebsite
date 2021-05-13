@@ -66,7 +66,7 @@ export const ProjectsIcon = styled.img`
 export const ProjectsH1 = styled.h1`
   margin-bottom: 60px;
   font-size: 3rem;
-  color: #fff;
+  color: #2b3330;
   margin-left: 40px;
   @media screen and (max-width: 480px) {
     font-size: 2 rem;
@@ -76,9 +76,11 @@ export const ProjectsH1 = styled.h1`
 export const ProjectsH2 = styled.h2`
   margin-bottom: 8px;
   font-size: 2rem;
+  color: #2b3330;
 `;
 export const ProjectsP = styled.p`
   text-align: center;
+  color: #2b3330;
   font-size: 1 rem;
   margin-bottom: 8px;
 `;
