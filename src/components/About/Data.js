@@ -15,38 +15,3 @@ export const homeObjectOne = {
   primary: true,
   darkText: false,
 };
-/* export const homeObjectTwo = {
-  id: "skills",
-  lightBg: true,
-  lightText: true,
-  lightTextDesc: true,
-  topLine: "Skills acquired:",
-  headLine: "Languages I am learning:",
-  description: "Learning through Udemy & YouTube",
-  buttonLabel: "btn",
-  imgStart: false,
-  img: require("../../images/8.jpg"),
-
-  alt: "temp",
-  dark: false,
-  primary: true,
-  darkText: false,
-}; */
-
-/* export const homeObjectThree = {
-  id: "connect",
-  lightBg: false,
-  lightText: true,
-  lightTextDesc: true,
-  topLine: "",
-  headLine: "lets be internet friends",
-  description: "LinkedIn & Github",
-  buttonLabel: "btn",
-  imgStart: true,
-  img: require("../../images/8.jpg"),
-
-  alt: "temp",
-  dark: true,
-  primary: true,
-  darkText: false,
-}; */

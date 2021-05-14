@@ -34,12 +34,10 @@ const Projects = () => {
           <ProjectsP>Card generator app based on occasion</ProjectsP>
           <IconWrap>
             <a href="https://github.com/D-Brewst/Project3">
-              <FaGithub color="#482732" size="1.5em">
-                {" "}
-              </FaGithub>
+              <FaGithub color="#482732" size="1.5em" />{" "}
             </a>
             <a href="https://aqueous-waters-16244.herokuapp.com/">
-              <GoRocket color="#482732" size="1.5em"></GoRocket>
+              <GoRocket color="#482732" size="1.5em" />
             </a>
           </IconWrap>
         </ProjectsCard>
@@ -49,15 +47,11 @@ const Projects = () => {
           <ProjectsP>App that allows users to post anon by zip code</ProjectsP>
           <IconWrap>
             <a href="https://github.com/kao-ring/Project-2">
-              <FaGithub color="#482732" size="1.5em">
-                {" "}
-              </FaGithub>
+              <FaGithub color="#482732" size="1.5em" />
             </a>
             <a href="limitless-refuge-18664.herokuapp.com/">
-              <GoRocket color="#482732" size="1.5em">
-                {" "}
-              </GoRocket>
-            </a>{" "}
+              <GoRocket color="#482732" size="1.5em" />
+            </a>
           </IconWrap>
         </ProjectsCard>
         <ProjectsCard>
@@ -68,14 +62,10 @@ const Projects = () => {
           </ProjectsP>
           <IconWrap>
             <a href="https://github.com/jamesrowe1/ZAP">
-              <FaGithub color="#482732" size="1.5em">
-                {" "}
-              </FaGithub>
+              <FaGithub color="#482732" size="1.5em" />
             </a>
             <a href="https://jamesrowe1.github.io/ZAP/">
-              <GoRocket color="#482732" size="1.5em">
-                {" "}
-              </GoRocket>
+              <GoRocket color="#482732" size="1.5em" />
             </a>
           </IconWrap>
         </ProjectsCard>
@@ -85,15 +75,11 @@ const Projects = () => {
           <ProjectsP>App for plant newbies</ProjectsP>
           <IconWrap>
             <a href="https://github.com/mmerc00">
-              <FaGithub color="#482732" size="1.5em">
-                {" "}
-              </FaGithub>
+              <FaGithub color="#482732" size="1.5em" />
             </a>
             <a href="https://github.com/mmerc00">
-              <GoRocket color="#482732" size="1.5em">
-                {" "}
-              </GoRocket>
-            </a>{" "}
+              <GoRocket color="#482732" size="1.5em" />
+            </a>
           </IconWrap>
         </ProjectsCard>
       </ProjectsWrap>
