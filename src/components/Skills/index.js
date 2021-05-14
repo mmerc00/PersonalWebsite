@@ -1,7 +1,7 @@
 import React from "react";
 import waves from "../../images/wwd.svg";
 
-import { FaGithub, FaNode, FaHtml5 } from "react-icons/fa";
+import { FaGitlab, FaNode, FaHtml5 } from "react-icons/fa";
 import {
   DiMongodb,
   DiReact,
@@ -38,7 +38,7 @@ const Skills = () => {
       </SkillsP>
 
       <SkillsWrap>
-        <FaGithub size="3em" color="433e0e" />
+        <FaGitlab size="3em" color="433e0e" />
         <DiMongodb size="3em" color="433e0e" />
         <DiReact size="3em" color="433e0e" />
         <FaNode size="3em" color="433e0e" />

@@ -29,16 +29,21 @@ export const SkillsH1 = styled.h1`
   font-size: 3rem;
   color: #2b3330;
   margin-left: 40px;
+  margin-top: 60px;
+
+  margin-bottom: 60px;
+
   @media screen and (max-width: 480px) {
     font-size: 2 rem;
   }
 `;
 
 export const SkillsP = styled.p`
-  margin-bottom: 40px;
+  margin-bottom: 30px;
   text-align: center;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   color: #2b3330;
+  cursor: pointer;
 `;
 export const Waves = styled.img`
   top: 0;
