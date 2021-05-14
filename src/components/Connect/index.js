@@ -17,10 +17,18 @@ const Connect = () => {
       <ConnectWrap>
         <ConnectH1>Let's Connect</ConnectH1>
         <IconWrap>
-          <FaLinkedin size="3em" color="#2b3330" />
-          <GrMail size="3em" color="#2b3330" />
+          <a
+            href="www.linkedin.com/in/melissa-mercado2323"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <FaLinkedin size="3em" color="#2b3330" />
+          </a>
 
-          <FaGithub size="3em" color="#2b3330" />
+          <GrMail size="3em" color="#2b3330" />
+          <a href="https://github.com/mmerc00">
+            <FaGithub size="3em" color="#2b3330" />{" "}
+          </a>
         </IconWrap>
         <ConnectP>
           I am currently seeking a full stack position and collaborations!{" "}
