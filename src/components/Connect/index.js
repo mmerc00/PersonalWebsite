@@ -18,7 +18,7 @@ const Connect = () => {
         <ConnectH1>Let's Connect</ConnectH1>
         <IconWrap>
           <a
-            href="www.linkedin.com/in/melissa-mercado2323"
+            href="https://www.linkedin.com/in/melissa-mercado2323/"
             rel="noopener noreferrer"
             target="_blank"
           >

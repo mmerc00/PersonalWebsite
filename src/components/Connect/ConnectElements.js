@@ -41,11 +41,11 @@ export const ConnectP = styled.p`
 
 export const ConnectWrap = styled.div`
   height: 600px;
+  position: absolute;
 `;
 
 export const Book = styled.img`
   top: 0;
-  position: abosolute;
 `;
 export const IconWrap = styled.div`
   margin-left: 215px;
