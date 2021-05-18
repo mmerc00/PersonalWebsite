@@ -25,7 +25,9 @@ const Connect = () => {
             <FaLinkedin size="3em" color="#2b3330" />
           </a>
 
-          <GrMail size="3em" color="#2b3330" />
+          <a href="mailto:@gmail.com" rel="noopener noreferrer" target="_blank">
+            <GrMail size="3em" color="#2b3330" />{" "}
+          </a>
           <a href="https://github.com/mmerc00">
             <FaGithub size="3em" color="#2b3330" />{" "}
           </a>

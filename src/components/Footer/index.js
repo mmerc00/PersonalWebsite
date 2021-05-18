@@ -9,7 +9,7 @@ const Footer = () => {
       <FooterWrapper>
         <FooterP>
           Made with
-          <GiHearts /> and <GiBeerStein />
+          <GiHearts /> & <GiBeerStein /> Melissa Mercado
         </FooterP>
       </FooterWrapper>
     </FooterContainer>
