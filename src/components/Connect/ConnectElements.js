@@ -37,6 +37,8 @@ export const ConnectP = styled.p`
   font-weight: 600px;
   margin-left: 65px;
   color: #2b3330;
+  font: Playfair Display;
+  font-weight: 580;
 `;
 
 export const ConnectWrap = styled.div`
