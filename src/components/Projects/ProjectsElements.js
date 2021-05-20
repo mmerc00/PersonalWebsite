@@ -19,7 +19,7 @@ export const ProjectsWrap = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   align-items: center;
-  grid-gap: 50px;
+  grid-gap: 30px;
   padding: 0 50px;
   @media screen and (max-width: 1000px) {
     grid-template-columns: 1fr 1fr;
@@ -36,7 +36,7 @@ width: 340px;
 background: #fff;
 display: flex;
 align-items: center;
-border-radius: 20px;
+border-radius: 10px;
 max-height: 340px;
 flex-direction: column;
 justify-content: flex start;
