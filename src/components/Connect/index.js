@@ -31,7 +31,7 @@ const Connect = () => {
             <FaGithub size="3em" color="#2b3330" />{" "}
           </a>
         </IconWrap>
-        <ConnectP>lets be internet friends </ConnectP>
+        <ConnectP>Open to front end positions and collaborations! </ConnectP>
       </ConnectWrap>
     </ConnectContainer>
   );
