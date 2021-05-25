@@ -6,6 +6,7 @@ import {
   ConnectH1,
   ConnectWrap,
   IconWrap,
+  IconContactLink,
 } from "./ConnectElements";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { GrMail } from "react-icons/gr";
@@ -16,20 +17,28 @@ const Connect = () => {
       <ConnectWrap>
         <ConnectH1>Let's Connect</ConnectH1>
         <IconWrap>
-          <a
+          <IconContactLink
             href="https://www.linkedin.com/in/melissa-mercado2323/"
             rel="noopener noreferrer"
             target="_blank"
           >
-            <FaLinkedin size="3em" color="#2b3330" />
-          </a>
+            <FaLinkedin size="5em" />
+          </IconContactLink>
 
-          <a href="mailto:@gmail.com" rel="noopener noreferrer" target="_blank">
-            <GrMail size="3em" color="#2b3330" />{" "}
-          </a>
-          <a href="https://github.com/mmerc00">
-            <FaGithub size="3em" color="#2b3330" />{" "}
-          </a>
+          <IconContactLink
+            href="mailto:@gmail.com"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <GrMail size="5em" />{" "}
+          </IconContactLink>
+          <IconContactLink
+            href="https://github.com/mmerc00"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <FaGithub size="5em" />{" "}
+          </IconContactLink>
         </IconWrap>
         <ConnectP>Open to front end positions and collaborations! </ConnectP>
       </ConnectWrap>
