@@ -6,8 +6,8 @@ export const ProjectsContainer = styled.div`
   align-items: center;
   justify-content: center;
   background: #d0c88e;
-  @media screen and (max-width: 1000px) {
-    height: 1100px;
+  @media screen and (max-width: 1400px) {
+    height: 900px;
   }
   @media screen and (max-width: 480px) {
     height: 1300px;
@@ -22,7 +22,7 @@ export const ProjectsWrap = styled.div`
   grid-gap: 30px;
   padding: 0 50px;
 
-  @media screen and (max-width: 1000px) {
+  @media screen and (max-width: 1300px) {
     grid-template-columns: 1fr 1fr;
   }
 
