@@ -105,3 +105,10 @@ export const IconWrap = styled.div`
   justify-content: space-around;
   width: 70%;
 `;
+export const GitHubLink = styled.a`
+   text-decoration: none;
+  color: #ca674b;
+  &:hover {
+    color: #fff;
+  }
+`;

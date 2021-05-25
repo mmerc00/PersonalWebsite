@@ -16,6 +16,7 @@ import {
   ProjectsP2,
   ProjectsIcon,
   IconWrap,
+  GitHubLink,
 } from "./ProjectsElements";
 //import { Button } from "../ButtonElements";
 
@@ -25,9 +26,9 @@ const Projects = () => {
       <ProjectsH1>Projects</ProjectsH1>
       <ProjectsP2>
         Here are just a few of my projects, check out my{" "}
-        <a href="https://github.com/mmerc00" target="__blank">
+        <GitHubLink href="https://github.com/mmerc00" target="__blank">
           GitHub{" "}
-        </a>{" "}
+        </GitHubLink>{" "}
         to view more
       </ProjectsP2>
 
