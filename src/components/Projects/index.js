@@ -25,7 +25,10 @@ const Projects = () => {
       <ProjectsH1>Projects</ProjectsH1>
       <ProjectsP2>
         Here are just a few of my projects, check out my{" "}
-        <a href="https://github.com/mmerc00">GitHub </a> to view more
+        <a href="https://github.com/mmerc00" target="__blank">
+          GitHub{" "}
+        </a>{" "}
+        to view more
       </ProjectsP2>
 
       <ProjectsWrap>
