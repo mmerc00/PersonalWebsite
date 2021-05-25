@@ -24,7 +24,8 @@ const Projects = () => {
     <ProjectsContainer id="projects">
       <ProjectsH1>Projects</ProjectsH1>
       <ProjectsP2>
-        Here are just a few of my projects, check out my GitHub to view more
+        Here are just a few of my projects, check out my{" "}
+        <a href="https://github.com/mmerc00">GitHub </a> to view more
       </ProjectsP2>
 
       <ProjectsWrap>

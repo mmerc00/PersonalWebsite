@@ -80,6 +80,7 @@ export const ProjectsH1 = styled.h1`
 export const ProjectsH2 = styled.h2`
   margin-bottom: 8px;
   font-size: 2rem;
+
   color: #2b3330;
   @media screen and (max-width: 480px) {
     font-size: 1 rem;
@@ -95,6 +96,7 @@ export const ProjectsP = styled.p`
 export const ProjectsP2 = styled.p`
   margin-bottom: 30px;
   font-size: 1.5rem;
+  text-decoration: none;
   margin-top: -10px;
   cursor: pointer;
 `;
