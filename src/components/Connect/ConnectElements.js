@@ -3,17 +3,16 @@ export const ConnectContainer = styled.div`
   display: flex;
   position: relative;
   height: 730px;
-
   flex-direction: column;
   align-items: center;
   justify-content: center;
   background: linear-gradient(to bottom, #d0c88e 0%, #ffffff 100%);
 
-  @media screen and (max-width: 768px) {
-    height: 1100px;
+  @media screen and (max-width: 1000px) {
+    height: 1000px;
   }
   @media screen and (max-width: 480px) {
-    height: 1300px;
+    height: 900px;
   }
 `;
 
