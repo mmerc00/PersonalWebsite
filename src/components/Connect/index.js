@@ -1,16 +1,15 @@
 import React from "react";
-//import book from "../../images/wavesOpacity.svg";
+
 import {
   ConnectContainer,
   ConnectP,
   ConnectH1,
   ConnectWrap,
-  //Book,
   IconWrap,
 } from "./ConnectElements";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { GrMail } from "react-icons/gr";
-//<Book src={book} alt="divider" />
+
 const Connect = () => {
   return (
     <ConnectContainer id="connect">
