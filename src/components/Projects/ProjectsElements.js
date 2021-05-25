@@ -21,6 +21,7 @@ export const ProjectsWrap = styled.div`
   align-items: center;
   grid-gap: 30px;
   padding: 0 50px;
+
   @media screen and (max-width: 1000px) {
     grid-template-columns: 1fr 1fr;
   }
@@ -36,13 +37,16 @@ width: 340px;
 background: #fff;
 display: flex;
 align-items: center;
-border-radius: 10px;
+border-radius: 5px;
 max-height: 340px;
 flex-direction: column;
 justify-content: flex start;
 padding: 30px:
 box-shadow: 0 1px 3px rgba(0,0,0,0,2);
 transition: all 0.2s ease-in-out;
+
+
+
  
 &:hover {
     transform: scale(1.02);
@@ -77,6 +81,9 @@ export const ProjectsH2 = styled.h2`
   margin-bottom: 8px;
   font-size: 2rem;
   color: #2b3330;
+  @media screen and (max-width: 480px) {
+    font-size: 1 rem;
+  }
 `;
 export const ProjectsP = styled.p`
   text-align: center;

@@ -32,9 +32,7 @@ const Connect = () => {
             <FaGithub size="3em" color="#2b3330" />{" "}
           </a>
         </IconWrap>
-        <ConnectP>
-          I am currently seeking a full stack position and collaborations!{" "}
-        </ConnectP>
+        <ConnectP>lets be internet friends </ConnectP>
       </ConnectWrap>
     </ConnectContainer>
   );
