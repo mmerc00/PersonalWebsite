@@ -1,12 +1,13 @@
 import styled from "styled-components";
 export const ConnectContainer = styled.div`
   display: flex;
-  position: relative;
   height: 740px;
 
-  align-items: center;
+  display: flex;
   justify-content: center;
+  align-items: center;
   background: linear-gradient(to bottom, #d0c88e 0%, #ffffff 100%);
+  overflow: auto;
 
   @media screen and (max-width: 1000px) {
     height: 1000px;
@@ -30,14 +31,14 @@ export const ConnectH1 = styled.h1`
 `;
 
 export const ConnectP = styled.p`
-  font-size: 1.5rem;
+  font-size: 1.9rem;
   margin-top: 60px;
-  font-weight: 600px;
   color: #2b3330;
   font: Playfair Display;
-  font-weight: 580;
   text-align: center;
   width: 70%;
+
+  font-weight: bold;
 `;
 
 export const ConnectWrap = styled.div`
@@ -48,12 +49,20 @@ export const ConnectWrap = styled.div`
 `;
 
 export const IconWrap = styled.div`
-  margin-left: 20px;
+  margin-left: 550px;
   display: flex;
   justify-content: space-around;
   width: 40%;
+  @media screen and (max-width: 1000px) {
+    margin-left: 30px;
+  }
+  @media screen and (max-width: 480px) {
+    margin-left: 30px;
+  }
 `;
 export const IconContactLink = styled.a`
+  display: flex;
+  justify-content: center;
   color: #2b3330;
   transition: transform 0.7s ease-in-out;
 
