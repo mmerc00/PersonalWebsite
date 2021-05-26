@@ -12,6 +12,7 @@ export const ProjectsContainer = styled.div`
   @media screen and (max-width: 480px) {
     height: 1300px;
   }
+  overflow: auto;
 `;
 export const ProjectsWrap = styled.div`
   max-width: 1600px;
@@ -44,7 +45,6 @@ justify-content: flex start;
 padding: 30px:
 box-shadow: 0 1px 3px rgba(0,0,0,0,2);
 transition: all 0.2s ease-in-out;
-
  
 &:hover {
     transform: scale(1.02);
