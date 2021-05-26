@@ -40,7 +40,11 @@ const Connect = () => {
             <FaGithub size="5em" />{" "}
           </IconContactLink>
         </IconWrap>
-        <ConnectP>Open to front end positions and collaborations! </ConnectP>
+        <ConnectP>
+          I am currently seeking front end and full stack web developper
+          positions. I am also currently accepting new projects and
+          collaborations!{" "}
+        </ConnectP>
       </ConnectWrap>
     </ConnectContainer>
   );

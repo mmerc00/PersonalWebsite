@@ -3,7 +3,7 @@ export const ConnectContainer = styled.div`
   display: flex;
   position: relative;
   height: 740px;
-  flex-direction: column;
+
   align-items: center;
   justify-content: center;
   background: linear-gradient(to bottom, #d0c88e 0%, #ffffff 100%);
@@ -36,21 +36,22 @@ export const ConnectP = styled.p`
   color: #2b3330;
   font: Playfair Display;
   font-weight: 580;
+  text-align: center;
+  width: 70%;
 `;
 
 export const ConnectWrap = styled.div`
   height: 600px;
   position: absolute;
+  justify-content: center;
+  align-items: center;
 `;
 
-export const Book = styled.img`
-  top: 0;
-`;
 export const IconWrap = styled.div`
   margin-left: 20px;
   display: flex;
   justify-content: space-around;
-  width: 90%;
+  width: 40%;
 `;
 export const IconContactLink = styled.a`
   color: #2b3330;
