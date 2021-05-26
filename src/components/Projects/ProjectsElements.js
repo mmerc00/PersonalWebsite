@@ -22,7 +22,7 @@ export const ProjectsWrap = styled.div`
   grid-gap: 30px;
   padding: 0 50px;
 
-  @media screen and (max-width: 1300px) {
+  @media screen and (max-width: 1500px) {
     grid-template-columns: 1fr 1fr;
   }
 
@@ -45,8 +45,6 @@ padding: 30px:
 box-shadow: 0 1px 3px rgba(0,0,0,0,2);
 transition: all 0.2s ease-in-out;
 
-
-
  
 &:hover {
     transform: scale(1.02);
@@ -54,8 +52,6 @@ transition: all 0.2s ease-in-out;
     cursor: pointer;
 
 }
-
-
 
 
 `;
