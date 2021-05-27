@@ -39,11 +39,13 @@ export const ConnectP = styled.p`
 
   font-weight: bold;
   @media screen and (max-width: 1680px) {
-    padding-right: 130px;
-    font-size: 1.5rem;
+    padding-right: 100px;
+    padding-left: 60px;
+    font-size: 1.4rem;
   }
   @media screen and (max-width: 1350px) {
-    padding-right: 40px;
+    padding-right: 250px;
+    padding-left: 60px;
   }
 `;
 
