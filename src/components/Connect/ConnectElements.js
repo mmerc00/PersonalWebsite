@@ -2,8 +2,8 @@ import styled from "styled-components";
 export const ConnectContainer = styled.div`
   display: flex;
   height: 740px;
+  align-items: flex-start;
 
-  display: flex;
   justify-content: center;
   align-items: center;
   background: linear-gradient(to bottom, #d0c88e 0%, #ffffff 100%);
@@ -20,7 +20,6 @@ export const ConnectContainer = styled.div`
 export const ConnectH1 = styled.h1`
   margin-top: 100px;
   text-align: center;
-
   margin-bottom: 60px;
   font-size: 3rem;
   color: #2b3330;
@@ -46,6 +45,7 @@ export const ConnectWrap = styled.div`
   position: absolute;
   justify-content: center;
   align-items: center;
+  position: sticky;
 `;
 
 export const IconWrap = styled.div`
@@ -53,6 +53,8 @@ export const IconWrap = styled.div`
   display: flex;
   justify-content: space-around;
   width: 40%;
+  position: sticky;
+
   @media screen and (max-width: 1000px) {
     margin-left: 30px;
   }
