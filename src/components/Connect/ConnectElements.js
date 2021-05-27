@@ -3,7 +3,6 @@ export const ConnectContainer = styled.div`
   display: flex;
   height: 740px;
   align-items: flex-start;
-
   justify-content: center;
   align-items: center;
   background: linear-gradient(to bottom, #d0c88e 0%, #ffffff 100%);
@@ -36,8 +35,16 @@ export const ConnectP = styled.p`
   font: Playfair Display;
   text-align: center;
   width: 70%;
+  margin-left: 250px;
 
   font-weight: bold;
+  @media screen and (max-width: 1680px) {
+    padding-right: 130px;
+    font-size: 1.5rem;
+  }
+  @media screen and (max-width: 1350px) {
+    padding-right: 40px;
+  }
 `;
 
 export const ConnectWrap = styled.div`
@@ -55,11 +62,11 @@ export const IconWrap = styled.div`
   width: 40%;
   position: sticky;
 
-  @media screen and (max-width: 1000px) {
-    margin-left: 30px;
+  @media screen and (max-width: 1650px) {
+    padding-right: 200px;
   }
-  @media screen and (max-width: 480px) {
-    margin-left: 30px;
+  @media screen and (max-width: 1300px) {
+    padding-right: 400px;
   }
 `;
 export const IconContactLink = styled.a`
