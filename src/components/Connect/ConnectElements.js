@@ -65,7 +65,7 @@ export const IconWrap = styled.div`
   @media screen and (max-width: 1650px) {
     padding-right: 200px;
   }
-  @media screen and (max-width: 1300px) {
+  @media screen and (max-width: 1400px) {
     padding-right: 400px;
   }
 `;
