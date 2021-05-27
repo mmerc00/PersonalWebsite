@@ -1,6 +1,6 @@
 import React from "react";
 
-import IMG from "../../images/6.jpg";
+import IMG from "../../images/myself.png";
 import {
   AboutContainer,
   AboutWrapper,
