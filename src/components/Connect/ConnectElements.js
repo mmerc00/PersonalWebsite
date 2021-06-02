@@ -41,7 +41,7 @@ export const ConnectP = styled.p`
   @media screen and (max-width: 1680px) {
     padding-right: 100px;
     padding-left: 60px;
-    font-size: 1.4rem;
+    font-size: 1rem;
   }
   @media screen and (max-width: 1350px) {
     padding-right: 250px;
